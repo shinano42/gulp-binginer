@@ -1,0 +1,1 @@
+$(".btn").click((function(){$(".text").text("loading . . ."),$.ajax({type:"GET",url:"https://api.meetup.com/2/cities",success:function(t){$(".text").text(JSON.stringify(t))},dataType:"jsonp"})}));

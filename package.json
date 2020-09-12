@@ -1,0 +1,21 @@
+{
+  "name": "gulp-beginner",
+  "version": "1.0.0",
+  "description": "the guideline for gulp beginner",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-terser": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0"
+  }
+}
